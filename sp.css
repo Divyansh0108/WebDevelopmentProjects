@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #b7b1d2;
+    background-color: #000000;
+}
+
+.keys{
+    margin: 0 auto;
+    max-width: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.key{
+    width: 160px;
+    height:160px;
+    float: left;
+    transition: all 0.07s ease;
+    border-radius: 20px;
+    background-color: #551fbd;
+    margin: 19px;
+}
+
+kbd{
+    display: block;
+    padding-top: 30px;
+    font-size: 60px;
+    color: #a2eacb
+}
+
+.playing{
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+}
